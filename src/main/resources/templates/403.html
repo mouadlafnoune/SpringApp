@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+  xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+   layout:decorator="layout">
+<head>
+<meta charset="utf-8"/>
+<title>Confirmation</title>
+<link rel="stylesheet" href="../static/css/bootstrap.min.css"
+      th:href="@{css/bootstrap.min.css}"/>
+<link rel="stylesheet" href="../static/css/Style.css"
+	th:href="@{css/Style.css}" />      
+</head>
+<body>
+<div layout:fragment="content">
+<div class="container">
+          
+  <div class="card">
+	  <div class="card-header">
+	    Confirmation
+	  </div>
+	  <div class="card-body">
+	   <h3 class="red">Vous n'êtes pas autorisé à accéder à cette ressource</h3>
+	    
+	  </div>
+  </div>
+   
+ </div>
+ </div>
+</body>
+</html>
